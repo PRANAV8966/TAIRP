@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+    
+    <style>
+      
+         #formbody
+            {
+            margin-top:30px;
+                background-color: white;
+               padding: 24px;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 4px 4px 2px lightgrey;
+            }
+            .input
+            {
+                width: 100%;
+            }
+            
+            .para
+            {
+                margin: 0;
+                margin-bottom: 4px;
+                margin-top: 12px;
+            }          
+            
+            h1
+            {
+                text-align:center;
+                font-size:35px;
+            }
+    </style>
+    
+</head>
+<body style="background-color:lightblue;">
+    
+    <h1><tt>Contact</tt></h1>
+    
+    <form id="formbody" method="post">
+
+       <div> 
+        <p class="para">Full Name:</p>
+        <input class="input" type="text" name="Fullname">
+       </div>
+       
+       <div>
+        <p class="para">Email:</p>
+        <input class="input" type="text" name="Email">
+       </div>
+       
+       <div>
+           <p class="para">Phone Number:</p>
+           <input class="input" type="number">
+       </div>
+
+    <br>
+    <div>
+        <textarea class="input" name="answer" rows="10" cols="30" placeholder="Message"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+    
+</body>
+</html>
